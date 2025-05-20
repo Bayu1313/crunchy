@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crunch tofa</title>
+    <link rel="stylesheet" href="./css/web.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hvf2mhr.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hvf2mhr.css">
+</head>
+<style>
+     body {
+               background-color: #FEF3E2; /* Mengatur warna latar belakang */
+           }
+</style>
+<body>
+    <nav class="nav">
+        <div class="wrapper">
+            <div class="logo">CrunchyTofa</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Produk">Produk</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+    </div>
+
+    <div class="wrapper">
+        <section id="Home">
+            <img src="./asset/IMG-20250514-WA0059-removebg-preview.png"/>
+            <div class="kolom">
+                <p class="deskripsi">Apa sih CrunchyTofa?</p>
+                <h2>CrunchyTofa</h2>
+                <p>Logo ini dibuat untuk menampilkan karakter ceria, ramah, dan menggugah selera yang mewakili Crunchy Tofa sebagai camilan renyah, menyenangkan, dan mudah diingat oleh semua kalangan.</p>
+            </div>
+        </section>
+
+        <section id="Produk">
+            <div class="kolom">
+                <p class="deskripsi">Tentang Produk</p>
+                <h2>Kentang Mustofa</h2>
+                <p>Crunchy Tofa adalah camilan renyah berbahan dasar kentang pilihan yang dipotong tipis dan digoreng hingga garing sempurna. Dipadukan dengan bumbu khas yang gurih dan sedikit pedas, menjadikannya pilihan camilan yang bikin nagih di setiap gigitan. Teksturnya yang crunchy dan rasanya yang pas membuat Crunchy Tofa cocok dinikmati saat bekerja, belajar, menonton film, atau sekadar bersantai. Dengan harga terjangkau, hanya 15K, kamu sudah bisa menikmati camilan berkualitas tanpa pengawet yang aman untuk segala usia. Dibuat secara higienis dan dikemas rapi, Crunchy Tofa juga cocok untuk dijadikan oleh-oleh atau hampers. Yuk, cobain sekarang dan rasakan sendiri kriuknya!</p>
+                
+
+            </div>
+            <img src="/asset/produk.jpg"/>
+        </section>
+
+
+
+       </div>
+        
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const burger = document.querySelector('.burger');
+          const nav = document.querySelector('.nav');
+      
+          burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+            burger.classList.toggle('toggle-burger');
+          });
+        });
+      </script>      
+</body>
+</html>
